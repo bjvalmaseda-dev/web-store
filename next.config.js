@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  env: {
+  /*env: {
     customKey: 'customValue', //to work with environments variables
   },
   basePath: '/dist', //where is generate the projects
@@ -16,7 +16,7 @@ const nextConfig = {
         permanent: true,
       },
     ];
-  },
+  },*/
 };
 
 module.exports = nextConfig;
